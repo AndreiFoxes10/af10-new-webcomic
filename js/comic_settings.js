@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 1; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 6; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -60,53 +60,62 @@ const pgData = [
     },
     {
         pgNum: 2,
-        title: "The Second Page Title",
-        date: writeDate(2025, 10, 2),
-        altText: "Here's some more alt text!",
-        imageFiles: 2,
+        title: "Old BlueCream",
+        date: writeDate(2025, 7, 21),
+        altText: "Old BlueCream",
+        imageFiles: 9,
         authorNotes: `
-            <p>You can have different author notes for every page.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate, orci sit amet dignissim eleifend, magna felis malesuada nunc, ut sagittis purus mi ac urna. Fusce ligula urna, varius vel sapien sit amet, vulputate tempor felis. In hac habitasse platea dictumst. Aliquam laoreet volutpat interdum. Vestibulum non libero sit amet leo accumsan porttitor. Vivamus nec porttitor neque. Sed eget mauris quam.</p>
+            <p>Ugh! Damn it, Eric, why did you bring an possessed old animatronic from Afton Robotics? We're not in the 1980s or 1990s.🤦‍♂️</p>
+            <p>┬⁠─⁠┬</p>
             `,
     },
     {
         pgNum: 3,
-        title: "The Third Page Title",
-        date: writeDate(2021, 3, 18),
-        altText: "Here's even more alt text!",
-        imageFiles: 1,
+        title: "Think",
+        date: writeDate(2025, 8, 10),
+        altText: "23-Boy is cooked.",
+        imageFiles: 7,
         authorNotes: `
-            <p>Sed lectus magna, dignissim eu sapien quis, euismod pulvinar diam. In odio massa, auctor blandit dolor id, varius ultricies lacus. Suspendisse sed libero vel leo dictum consectetur. In fringilla elit sit amet placerat varius. Duis vel lacus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Proin eleifend metus eu ex elementum venenatis. Curabitur sodales, ipsum placerat ornare convallis, sem eros convallis felis, vel efficitur erat ante id diam.</p>
+            <p>Ouch! 23-Boy tries to hit his head with a hammer. 🤕🔨</p>
+            <p>Credit:<br>
+            • This character "23-Boy(a.k.a. Băiatul 23)" belongs to <a href="https://youtube.com/@lumealuidedo">DEDO's World(a.k.a. Lumea lui DEDO) from YouTube.</a></p>
+            <p>┬⁠─⁠┬</p>
             `,
     },
     {
         pgNum: 4,
-        title: "Even If The Title of a Page Is Really Long, It'll Wrap",
-        date: writeDate(2021, 3, 19),
-        altText: "So much alt text...",
-        imageFiles: 1,
+        title: "Thirst",
+        date: writeDate(2025, 8, 19),
+        altText: "Don't drink!",
+        imageFiles: 6,
         authorNotes: `
-            <p>Sed lectus magna, dignissim eu sapien quis, euismod pulvinar diam. In odio massa, auctor blandit dolor id, varius ultricies lacus. Suspendisse sed libero vel leo dictum consectetur. In fringilla elit sit amet placerat varius. Duis vel lacus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Proin eleifend metus eu ex elementum venenatis. Curabitur sodales, ipsum placerat ornare convallis, sem eros convallis felis, vel efficitur erat ante id diam.</p>
+            <p>Reminder: Do not drink afterwater from the river.</p>
+            <p>┬⁠─⁠┬</p>
             `,
     },
     {
         pgNum: 5,
-        title: "Also if you don't feel like coming up with a title for every page, you don't have to.",
-        date: writeDate(2021, 3, 20),
-        altText: "Here's even more alt text!",
-        imageFiles: 1,
+        title: "Play time",
+        date: writeDate(2025, 9, 8),
+        altText: "Play time!",
+        imageFiles: 2,
         authorNotes: `
-            <p>Sed lectus magna, dignissim eu sapien quis, euismod pulvinar diam. In odio massa, auctor blandit dolor id, varius ultricies lacus. Suspendisse sed libero vel leo dictum consectetur. In fringilla elit sit amet placerat varius. Duis vel lacus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Proin eleifend metus eu ex elementum venenatis. Curabitur sodales, ipsum placerat ornare convallis, sem eros convallis felis, vel efficitur erat ante id diam.</p>
+            <p>After finishing work and then play time.<br><br>It's better to play outside and touch the grass in the sun than to stay at home scrolling social media on a smartphone.</p>
+            <p>┬⁠─⁠┬</p>
             `,
     },
     {
         pgNum: 6,
-        title: `Unnamed pages won't display a title, and they'll show up as "Page [X]" when listed in the archive`,
-        date: writeDate(2021, 3, 21),
-        altText: "Here's even more alt text!",
-        imageFiles: 1,
+        title: "Andreea is...",
+        date: writeDate(2025, 10, 1),
+        altText: "IT'S SPOOKY MONTH!",
+        imageFiles: 6,
         authorNotes: `
-            <p>Sed lectus magna, dignissim eu sapien quis, euismod pulvinar diam. In odio massa, auctor blandit dolor id, varius ultricies lacus. Suspendisse sed libero vel leo dictum consectetur. In fringilla elit sit amet placerat varius. Duis vel lacus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Proin eleifend metus eu ex elementum venenatis. Curabitur sodales, ipsum placerat ornare convallis, sem eros convallis felis, vel efficitur erat ante id diam.</p>
+            <p>October 1st, Andreea is now a zombie.<br>IT'S SPOOKY MONTH!!</p>
+            <img src="img/ITS_SPOOKY_MONTH.gif" alt="IT'S SPOOKY MONTH!" width="300">
+            <p>Credit:<br>
+            • This OC on the right "Pietrelle" belongs to @PietersonOficjal</p>
+            <p>┬⁠─⁠┬</p>
             `,
     },
 ];
