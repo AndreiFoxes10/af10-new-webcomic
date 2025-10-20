@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 6; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 7; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -117,6 +117,20 @@ const pgData = [
             • This OC on the right "Pietrelle" belongs to @PietersonOficjal</p>
             <p>┬⁠─⁠┬</p>
             `,
+    },
+    {
+        pgNum: 7,
+        title: "Another eye",
+        date: writeDate(2025,10,20),
+        altText: "Another eye",
+        imageFiles: 8,
+        authorNotes: `
+            <p>Andreea can see with her missing eye while she has powers in her heart.<br>And... Jack the Pumpkin is back.</p>
+            <p>IT'S SPOOKY MONTH!!!</p>
+            <img src="img/ITS_SPOOKY_MONTH.gif" alt="IT'S SPOOKY MONTH!" width="300">
+            <p>Note: Jack the Pumpkin's body looks like "The Grand Pumpkin" from "The Simpsons".</p>
+            <p>┬⁠─⁠┬</p>
+        `
     },
 ];
 
