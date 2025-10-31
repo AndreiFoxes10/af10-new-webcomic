@@ -139,6 +139,7 @@ const pgData = [
         altText: "Happy Halloween!👻🎃🦇",
         imageFiles: 9,
         authorNotes: `
+        <p>Bonus comic name: Zombie to normal</p>
         <p>
             Happy Halloween!👻🎃🦇<br>
             It's sad that Spooky Month is ending. :(</p>
