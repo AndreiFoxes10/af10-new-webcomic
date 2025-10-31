@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 7; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 8; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -130,6 +130,20 @@ const pgData = [
             <img src="img/ITS_SPOOKY_MONTH.gif" alt="IT'S SPOOKY MONTH!" width="300">
             <p>Note: Jack the Pumpkin's body looks like "The Grand Pumpkin" from "The Simpsons".</p>
             <p>┬⁠─⁠┬</p>
+        `
+    },
+    {
+        pgNum: 9,
+        title: "Happy Halloween + Bonus comic",
+        date: writeDate(2025,10,31),
+        altText: "Happy Halloween!👻🎃🦇",
+        imageFiles: 9,
+        authorNotes: `
+        <p>
+            Happy Halloween!👻🎃🦇<br>
+            It's sad that Spooky Month is ending. :(</p>
+        <p>Note: It's better to draw the Green Cross than the Red Cross.</p>
+        <p>┬⁠─⁠┬</p>
         `
     },
 ];
