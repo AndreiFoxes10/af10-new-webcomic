@@ -133,7 +133,7 @@ const pgData = [
         `
     },
     {
-        pgNum: 9,
+        pgNum: 8,
         title: "Happy Halloween + Bonus comic",
         date: writeDate(2025,10,31),
         altText: "Happy Halloween!👻🎃🦇",
