@@ -139,7 +139,7 @@ const pgData = [
         altText: "Happy Halloween!👻🎃🦇",
         imageFiles: 9,
         authorNotes: `
-        <p>UPDATE NOTE: On November 1st, I replaced the Green Cross Symbol with the Hospital Symbol in the bonus comic.</p>
+        <p>UPDATE NOTE: On November 1st, I replaced the Green Cross Symbol with the Hospital Symbol in the bonus comic.<br>The Green Cross Symbol is not protected by law but the Symbol looks like a pharmacy.</p>
         <p>Bonus comic name: Zombie to normal</p>
         <p>
             Happy Halloween!👻🎃🦇<br>
