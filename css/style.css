@@ -83,7 +83,7 @@ a {
     }
 
 a:hover {
-      color: #DA5437;
+      color: #5792ff;
     }
 
 /* HEADER */
@@ -175,7 +175,7 @@ header #nav {
 
 /* highlight a table row and make pointer into hand when moused over */
 .archiveRow:hover {
-  background-color: #DA5437;
+  background-color: #5792ff;
   cursor: pointer;
 }
 
