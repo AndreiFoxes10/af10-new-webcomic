@@ -118,7 +118,7 @@ const pgData = [
             • This OC on the right "Pietrelle" belongs to @PietersonOficjal.<br>
             • Based on this movie scene(The Croods) - <a href="https://youtu.be/YUluLIr98qc">https://youtu.be/YUluLIr98qc</a><br>
             •Based on this meme(I'm Sorry Coach):<br>
-            <img src="../img/I'm_sorry.jpg" width="300">
+            <img src="img/I'm_sorry.jpg" width="300">
             </p>
             <p>┬⁠─⁠┬</p>
             `,
