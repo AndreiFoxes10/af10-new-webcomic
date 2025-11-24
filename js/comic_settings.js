@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 8; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 9; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -38,6 +38,7 @@ if (pg == 0) {pg = maxpg;} //display MOST RECENT COMIC when the webpage is loade
     {
         pgNum: ,
         title: "",
+        mature: ,
         date: writeDate([YEAR],[MONTH],[DAY]),
         altText: "",
         imageFiles: "",
@@ -114,7 +115,11 @@ const pgData = [
             <p>October 1st, Andreea is now a zombie.<br>IT'S SPOOKY MONTH!!</p>
             <img src="img/ITS_SPOOKY_MONTH.gif" alt="IT'S SPOOKY MONTH!" width="300">
             <p>Credit:<br>
-            • This OC on the right "Pietrelle" belongs to @PietersonOficjal</p>
+            • This OC on the right "Pietrelle" belongs to @PietersonOficjal.<br>
+            • Based on this movie scene(The Croods) - <a href="https://youtu.be/YUluLIr98qc">https://youtu.be/YUluLIr98qc</a><br>
+            •Based on this meme(I'm Sorry Coach):<br>
+            <img src="../img/I'm_sorry.jpg" width="300">
+            </p>
             <p>┬⁠─⁠┬</p>
             `,
     },
@@ -145,6 +150,18 @@ const pgData = [
             Happy Halloween!👻🎃🦇<br>
             It's sad that Spooky Month is ending. :(</p>
         <p>Note: It's better to draw the useful medical symbols than the Red Cross.</p>
+        <p>┬⁠─⁠┬</p>
+        `
+    },
+    {
+        pgNum: 9,
+        title: "What they choose for developmemt",
+        date: writeDate(2025,11,24),
+        altText: "What they choose for developmemt",
+        imageFiles: 1,
+        authorNotes: `
+        <p>For the next question, What they choose?<br>
+        Game development, App development, or Web development?</p>
         <p>┬⁠─⁠┬</p>
         `
     },
