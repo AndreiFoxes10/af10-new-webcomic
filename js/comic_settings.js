@@ -160,7 +160,7 @@ const pgData = [
         altText: "What they choose for developmemt",
         imageFiles: 1,
         authorNotes: `
-        <p>For the next question, What they choose?<br>
+        <p>For the next question, what they choose?<br>
         Game development, App development, or Web development?</p>
         <p>┬⁠─⁠┬</p>
         `
