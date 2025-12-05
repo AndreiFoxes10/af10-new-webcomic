@@ -9,7 +9,7 @@ document.querySelector(".writeHeader").innerHTML = `
             <a href="archive.html">ARCHIVE</a> |
             <a href="about.html">ABOUT</a> |
             <a href="characters.html">CHARACTERS</a>
-            <a href="feed/comic.xml"><img src="./img/rss_feed.png" style="width:20px;height:20px;">RSS FEED</a>
+            <a href="feed/comic.xml"><img src="./img/rss_feed.png" style="width:20px;height:20px;">FEED</a>
         </div>
     </header>
 `;

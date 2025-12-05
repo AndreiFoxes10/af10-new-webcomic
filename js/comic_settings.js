@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 9; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 10; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -162,6 +162,20 @@ const pgData = [
         authorNotes: `
         <p>For the next question, what they choose?<br>
         Game development, App development, or Web development?</p>
+        <p>┬⁠─⁠┬</p>
+        `
+    },
+    {
+        pgNum: 10,
+        title: "She found diamonds!",
+        date: writeDate(2025,12,5),
+        altText: "She found diamonds!",
+        imageFiles: 1,
+        authorNotes: `
+        <p>
+            Andreea found diamonds.<br>
+            Who wants to play Minecraft?
+        </p>
         <p>┬⁠─⁠┬</p>
         `
     },
