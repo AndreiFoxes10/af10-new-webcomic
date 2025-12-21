@@ -52,7 +52,7 @@ const pgData = [
         pgNum: 1,
         title: "Welcome (back)",
         date: writeDate(2025, 10, 2),
-        altText: "A Little Angle Fox.",
+        altText: "A Little Angel Fox.",
         imageFiles: 7,
         authorNotes: `
             <p>Welcome to the New WebComic(NWC).</p>
