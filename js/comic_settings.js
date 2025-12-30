@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 13; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 14; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -218,6 +218,23 @@ const pgData = [
         <p>Merry Chistmas and Happy Holidays!🎄🎁🎅</p>
         <p>On December 25th, it's 12/25/25 (or 25/12/25).<br>
 December 2️⃣5️⃣th, 202️⃣5️⃣.</p>
+        <p>┬⁠─⁠┬</p>
+        `
+    },
+    {
+        pgNum: 14,
+        title: "Imitaion",
+        date: writeDate(2025,12,30),
+        altText: "Let's mock the Karen.😈",
+        imageFiles: 5,
+        authorNotes: 
+        `
+        <p>Beware: Karens</p>
+        <p>
+            Andrei and Andreea are imitating and mocking two Karens for what they have done.<br>
+            Well, Funny.<br>
+            People with Karen behavior are insane.
+        </p>
         <p>┬⁠─⁠┬</p>
         `
     },
