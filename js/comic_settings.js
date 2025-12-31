@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 14; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 15; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -38,7 +38,6 @@ if (pg == 0) {pg = maxpg;} //display MOST RECENT COMIC when the webpage is loade
     {
         pgNum: ,
         title: "",
-        mature: ,
         date: writeDate([YEAR],[MONTH],[DAY]),
         altText: "",
         imageFiles: "",
@@ -236,6 +235,21 @@ December 2️⃣5️⃣th, 202️⃣5️⃣.</p>
             People with Karen behavior are insane.
         </p>
         <p>┬⁠─⁠┬</p>
+        `
+    },
+    {
+        pgNum: 15,
+        title: "Happy New Year! 2026",
+        date: writeDate(2025,12,31),
+        altText: "Happy New Year!",
+        imageFiles: 6,
+        authorNotes: 
+        `
+            <p>Happy New Year, guys!<br>🎇🎆🥂🍾🎊🎉</p>
+            <p>
+                Jeez! Andrei was in danger, when Andrei lit a giant firework rocket, who is the dangerous prankster who tied his leg?🤔
+            </p>
+            <p>┬⁠─⁠┬</p>
         `
     },
 ];
