@@ -2,7 +2,7 @@
 //at the bottom of your page, but before the js script calls and the closing body tag, put an empty div with a class of "writeFooter"
 document.querySelector(".writeFooter").innerHTML = `
     <footer>
-        <p>&copy;2025 AndreiFoxes10. All rights reserved.</p>
+        <p>&copy;2025-2026 AndreiFoxes10. All rights reserved.</p>
         <p>Note: Only comics are protected by Copyright.</p> 
         <p><strong>Powered by</strong></p>
         <a href="https://rarebit.neocities.org"><img src="img/rarebitlogo_small.png" height = "30" /></a>
