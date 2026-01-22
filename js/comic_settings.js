@@ -270,7 +270,7 @@ December 2️⃣5️⃣th, 202️⃣5️⃣.</p>
         altText: "Where's Andrei?",
         imageFiles: 5,
         authorNotes: `
-            <p>Andrei is missing, Andreea must to find him.</p>
+            <p>Andrei is missing, and Andreea must find him.</p>
             <p>┬⁠─⁠┬</p>
         `
     },
