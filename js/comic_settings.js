@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 17; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 18; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -270,7 +270,29 @@ December 2️⃣5️⃣th, 202️⃣5️⃣.</p>
         altText: "Where's Andrei?",
         imageFiles: 5,
         authorNotes: `
+            <p>Important: "Gone" is cancelled.</p>
             <p>Andrei is missing, and Andreea must find him.</p>
+            <p>┬⁠─⁠┬</p>
+        `
+    },
+    {
+        pgNum: 18,
+        title: "GitHub vs Codeberg [Important Notice]",
+        date: writeDate(2026,2,3),
+        altText: "GitHub vs Codeberg",
+        imageFiles: 3,
+        authorNotes: `
+            <p>Little Fox is playing with plushies.</p>
+            <p>
+                Importent Note: GitHub Pages will soon switch to Codeberg Pages, but not really, because JavaScript for Codeberg is not working yet.
+            </p>
+            <p>
+                By the way, GitHub is owned by Microsoft.
+            </p>
+            <p>
+                Credit:<br>
+• This Original Character "Pietrelle" belongs to @PietersonOficjal.
+            </p>
             <p>┬⁠─⁠┬</p>
         `
     },
