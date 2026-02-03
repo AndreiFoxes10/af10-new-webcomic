@@ -284,11 +284,12 @@ December 2️⃣5️⃣th, 202️⃣5️⃣.</p>
         authorNotes: `
             <p>Little Fox is playing with plushies.</p>
             <p>
-                Importent Note: GitHub Pages will soon switch to Codeberg Pages, but not really, because JavaScript for Codeberg is not working yet.
+                Importent Note: GitHub website will switch to Codeberg soon, but not really, because JavaScript for Codeberg is not working yet.
             </p>
             <p>
                 By the way, GitHub is owned by Microsoft.
             </p>
+            <p>Here's Codeberg website:<br><b><a href="https://andreifoxes10.codeberg.page/af10-new-webcomic/" style="color: blue;">andreifoxes10.codeberg.page/af10-new-webcomic/</a></b></p>
             <p>
                 Credit:<br>
 • This Original Character "Pietrelle" belongs to @PietersonOficjal.
