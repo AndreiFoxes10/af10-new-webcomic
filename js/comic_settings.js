@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 18; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 19; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -296,6 +296,21 @@ December 2️⃣5️⃣th, 202️⃣5️⃣.</p>
             </p>
             <p>┬⁠─⁠┬</p>
         `
+    },
+    {
+        pgNum: 19,
+        title: "Unplug",
+        date: writeDate(2026, 2, 7),
+        altText: "A Little Angel Fox.",
+        imageFiles: 4,
+        authorNotes: `
+            <p>It's now unplugged.</p>
+            <p>This plugin is for  □̷̦͍͇̻̓□̷̠͇̜͆́͌□̶̬̩̿□̸̳̅̃̔□̷̗̬̙̥̋□̴̠͉̥̣̈□̵̟̠̂□̴͎̦͑□̴̣͕̮̠̂̇□̴̎ͅ□̵͓̱̥̒□̴̤̰̫́̇□̶̘͆̾̀͝□̷͎͆͆̍</p>
+            <div style="background-color:black; color:white;">
+                # SYSTEM ERROR: We're sorry, this file has been corrupted. #
+            </div>
+            <p>┬⁠─⁠┬</p>
+            `,
     },
 ];
 
