@@ -222,7 +222,7 @@ December 2️⃣5️⃣th, 202️⃣5️⃣.</p>
     },
     {
         pgNum: 14,
-        title: "Imitaion",
+        title: "Imitation",
         date: writeDate(2025,12,30),
         altText: "Let's mock the Karen.😈",
         imageFiles: 5,
