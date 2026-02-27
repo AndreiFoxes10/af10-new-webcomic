@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 20; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 21; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -65,7 +65,7 @@ const pgData = [
         altText: "Old BlueCream",
         imageFiles: 9,
         authorNotes: `
-            <p>Ugh! Damn it, Eric, why did you bring an possessed old animatronic from Afton Robotics? We're not in the 1980s or 1990s.🤦‍♂️</p>
+            <p>Ugh! Damn it, Eric. why did you bring an possessed old animatronic from Afton Robotics? We're not in the 1980s or 1990s.🤦‍♂️</p>
             <p>┬⁠─⁠┬</p>
             `,
     },
@@ -314,12 +314,28 @@ December 2️⃣5️⃣th, 202️⃣5️⃣.</p>
     },
     {
         pgNum: 20,
-        title: "Valentine's Day 2026'",
+        title: "Valentine's Day 2026",
         date: writeDate(2026,2,14),
-        altText: "Happy Valentine's Day!'",
+        altText: "Happy Valentine's Day!",
         imageFiles: 1,
         authorNotes: `
             <p>Happy Valentine's Day!❤️</p>
+            <p>┬⁠─⁠┬</p>
+        `
+    },
+    {
+        pgNum: 21,
+        title: "Something Codeless",
+        date: writeDate(2026,2,27),
+        altText: "Something Codeless",
+        imageFiles: 4,
+        authorNotes: `
+            <p>It's better to make games with something codeless like Scratch, Clickteam (Multimedia) Fusion, GameMaker Studio, or any codeless game engine.</p>
+            <p>
+                "Don't learn the engine to make a game,<br>
+Make a game to learn the engine."<br> -<a href="https://youtube.com/@binzudev">@BinzuDev</a>
+            </p>
+            <a href="https://youtu.be/hqbmKtal_ac">Watch this video</a>
             <p>┬⁠─⁠┬</p>
         `
     },
