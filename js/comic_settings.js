@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 21; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 22; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -40,7 +40,7 @@ if (pg == 0) {pg = maxpg;} //display MOST RECENT COMIC when the webpage is loade
         title: "",
         date: writeDate([YEAR],[MONTH],[DAY]),
         altText: "",
-        imageFiles: "",
+        imageFiles: ,
         authorNotes: ``
     },
 */
@@ -336,6 +336,18 @@ December 2️⃣5️⃣th, 202️⃣5️⃣.</p>
 Make a game to learn the engine."<br> -<a href="https://youtube.com/@binzudev">@BinzuDev</a>
             </p>
             <a href="https://youtu.be/hqbmKtal_ac">Watch this video</a>
+            <p>┬⁠─⁠┬</p>
+        `
+    },
+    {
+        pgNum: 22,
+        title: "Snowdrop",
+        date: writeDate(2026,3,1),
+        altText: "Galanthus",
+        imageFiles: 2,
+        authorNotes: `
+            <p>Snowdrops, I mean <a href="https://en.wikipedia.org/wiki/Galanthus">Galanthus.</a></p>
+            <p>It's March 1st.</p>
             <p>┬⁠─⁠┬</p>
         `
     },
