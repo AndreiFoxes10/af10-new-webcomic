@@ -17,7 +17,7 @@ const maxpg = 22; //the current number of pages your comic has in total. this DO
 // COMIC PAGE SETTINGS
 const folder = "img/comics"; //directory of the folder where you keep all the comics
 const image = "pg"; //what you'll name all your comic pages
-const imgPart = "_" //special character(s) you put after the page number to subdivide pages into multiple image files (ie pg2_1, pg2_2, etc)
+const imgPart = "_" //special character(s) you put after the page number to subdivide pages into multiple image files (ie pg2_1, pg_2, etc)
 const ext = "jpg"; //file extension of your comic pages
 
 //THUMBNAIL SETTINGS
@@ -277,7 +277,7 @@ December 2️⃣5️⃣th, 202️⃣5️⃣.</p>
     },
     {
         pgNum: 18,
-        title: "GitHub vs Codeberg [Important Notice]",
+        title: "GitHub vs Codeberg [Importent Notice]",
         date: writeDate(2026,2,3),
         altText: "GitHub vs Codeberg",
         imageFiles: 3,
@@ -331,6 +331,9 @@ December 2️⃣5️⃣th, 202️⃣5️⃣.</p>
         imageFiles: 4,
         authorNotes: `
             <p>It's better to make games with something codeless like Scratch, Clickteam (Multimedia) Fusion, GameMaker Studio, or any codeless game engine.</p>
+            <p>
+                UPDATE NOTE: Someting Codeless on Game Engine is like Scratch, Lego pieces(and also Toy Bricks), and plugins.
+            </p>
             <p>
                 "Don't learn the engine to make a game,<br>
 Make a game to learn the engine."<br> -<a href="https://youtube.com/@binzudev">@BinzuDev</a>
