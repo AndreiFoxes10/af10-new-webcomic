@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 22; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 23; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -351,6 +351,20 @@ Make a game to learn the engine."<br> -<a href="https://youtube.com/@binzudev">@
         authorNotes: `
             <p>Snowdrops, I mean <a href="https://en.wikipedia.org/wiki/Galanthus">Galanthus.</a></p>
             <p>It's March 1st.</p>
+            <p>┬⁠─⁠┬</p>
+        `
+    },
+    {
+        pgNum: 23,
+        title: "Wants Proteins",
+        date: writeDate(2026,3,8),
+        altText: "Proteins",
+        imageFiles: 4,
+        authorNotes: `
+            <p>Note: Jeez, it's been 2 months of the unfinished comic.</p>
+            <p>Protein from meat is better than cheap protein powder jars.</p>
+            <p>When you're trying to build muscle, why the fuck do you still buy this powder jar full of chemicals and flavors?<br>
+This is not good for you, they are trying to milk you for their profit(money).</p>
             <p>┬⁠─⁠┬</p>
         `
     },
